@@ -1,0 +1,39 @@
+{
+    "About": {
+        "Adress": "Karrhoksgatan 80 1005, 55612 Jonkoping",
+        "Email": "oskar.neuman@gmail.com",
+        "Phone": "+46764284858",
+        "Age": 31,
+        "Desc": "Hi! I'm a software engineer currently operating from Sweden. I have made this page to combine an introduction of me as a person with a summary of my skillset and to present some of my previous work. Find out more below.",
+        "GithubUsername": "NeumanShowcase"
+    },
+    "Experience": {
+        "Infospread": {
+            "Img": "img/infospread.png",
+            "Title": "Infospread Euro AB",
+            "Timespan": "March 2018 - December 2019",
+            "Desc": "I worked for Infospread during the last year of my engineering studies, this partnership led to several developed software products in different fields of software and IT.",
+            "Webpage": "https://infospread.se",
+            "Position": "Software Engineer"
+        }
+    },
+    "Education": {
+        "JU": {
+            "Img": "img/juLogo2.png",
+            "Title": "Jönköping University",
+            "Timespan": "August 2017 - January 2020",
+            "Degree": "Bachelor in computer science",
+            "TrackName": "Computer Science - 'Mobile platforms' Track",
+            "Webpage": "https://ju.se",
+            "Desc": "After studying about 3 years i graduated 2020 from Jönköping University, i wrote my thesis work in collaboration with Infospread and it's about predicting patterns in the statistics of commuting. My grades and the thesis work can be found below.",
+            "ThesisURL": "http://hj.diva-portal.org/smash/record.jsf?pid=diva2%3A1390020&dswid=-4432",
+            "DegreeURL": "/certs/Degree.pdf"
+        }
+    },
+    "Skills": {
+        "Desc": "I have been coding in different languages depending on the requirements of the task. I would say the languages and frameworks i feel most at home with are: Java (Android Studio), Javascript (Node.js & React), Python 3.5, Obj-C or Swift (X-Code)"
+    },
+    "Portfolio": {
+        "Desc": "When i'm not in the kitchen cooking food to music, i sometimes spend my spare time coding. Some of the results of this activity can be found below."
+    }
+}

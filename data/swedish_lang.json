@@ -1,0 +1,39 @@
+{
+    "About": {
+        "Adress": "Kärrhöksgatan 80 1005, 55612 Jönköping",
+        "Email": "oskar.neuman@gmail.com",
+        "Phone": "+46764284858",
+        "Age": 31,
+        "Desc": "Hej! Jag är en mjukvaruutvecklare som bor i Jönköping. Denna sida är sammansatt med syftet att kombinera information om mig som person med en samanställning av mina tidigare arbeten. Läs mer nedan om du är intresserad.",
+        "GithubUsername": "NeumanShowcase"
+    },
+    "Experience": {
+        "Infospread": {
+            "Img": "img/infospread.png",
+            "Title": "Infospread Euro AB",
+            "Timespan": "Mars 2018 - December 2019",
+            "Desc": "Jag arbetade senast på Infospread där min roll var att konstruera mjukvara och efterforska produktlönsingar som ämnade förbättra produkten 'Mobitime'. Detta samarbete resulterade i flertalet utvecklade mjukvaror på flera områden av IT.",
+            "Webpage": "https://infospread.se",
+            "Position": "Utvecklare"
+        }
+    },
+    "Education": {
+        "JU": {
+            "Img": "img/juLogo2.png",
+            "Title": "Jönköping University",
+            "Timespan": "Augusti 2017 - Januari 2020",
+            "Degree": "Högskoleingenjör datavetenskap",
+            "TrackName": "Datavetenskap - inriktnig mobila plattformar",
+            "Webpage": "https://ju.se",
+            "Desc": "Efter tre års studier tog jag examen från Jönköpings tekniska högskola i Januari 2020. Mitt examensarbete gjorde jag i samarbete med Infospread och kom att avhandla resemönster och statistiska förutselser från dessa. Detta examensarbete och mina betyg går att granska via länkarna nedan, ett axplock av de projekt jag arbetat i finns sedan under 'portfolio'.",
+            "ThesisURL": "http://hj.diva-portal.org/smash/record.jsf?pid=diva2%3A1390020&dswid=-4432",
+            "DegreeURL": "/certs/Degree.pdf"
+        }
+    },
+    "Skills": {
+        "Desc": "Jag har arbetat med olika språk i flertalet ramverk beroende på vad som krävts av projektet. De språk och ramverk jag känner mig mest hemma i är: Java (Android Studio), Javascript (Node.js & React), Python 3.5, Obj-C or Swift (X-Code)"
+    },
+    "Portfolio": {
+        "Desc": "När jag inte lagar mat till musik eller gymmar spenderar jag min tid med att programmera i olika hobbyprojekt, några går det att läsa om nedan."
+    }
+}
