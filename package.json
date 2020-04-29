@@ -2,6 +2,9 @@
   "title": "Resume_2 - A node.js adaption",
   "name": "startbootstrap-resume",
   "version": "1.0",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "start": "node app"
   },
