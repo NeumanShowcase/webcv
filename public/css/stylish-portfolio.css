@@ -76,9 +76,20 @@ h6 {
 .scroll-to-top:focus, .scroll-to-top:hover {
   color: white;
 }
-
+.fitport{
+  width: 600px;
+  height: 330px;
+}
 .scroll-to-top:hover {
   background: #343a40;
+}
+.iconmargin{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.portfolio-header{
+  margin-top: 35px;
+  margin-left: 55px;
 }
 
 .scroll-to-top i {
@@ -263,7 +274,7 @@ h6 {
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
-    margin: 0;
+    margin: 5px;
   }
   .portfolio-item .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
@@ -274,7 +285,7 @@ h6 {
     transition: opacity 0.25s;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
@@ -342,7 +353,14 @@ a:hover, a:focus, a:active {
   background-color: #ba9106 !important;
   border-color: #ba9106 !important;
 }
-
+.langico{
+  max-width: 100px;
+  max-height: auto;
+}
+.langicosmall{
+  max-width: 50px;
+  max-height: auto;
+}
 .btn-dark {
   color: #fff !important;
 }

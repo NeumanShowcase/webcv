@@ -1,18 +1,23 @@
 {
+    "Lang":{
+        "Swedish": true 
+    },
     "About": {
         "Adress": "Kärrhöksgatan 80 1005, 55612 Jönköping",
         "Email": "oskar.neuman@gmail.com",
-        "Phone": "+46764284858",
+        "Phone": "0764284858",
         "Age": 31,
         "Desc": "Hej! Jag är en mjukvaruutvecklare som bor i Jönköping. Denna sida är sammansatt med syftet att kombinera information om mig som person med en samanställning av mina tidigare arbeten. Läs mer nedan om du är intresserad.",
-        "GithubUsername": "NeumanShowcase"
+        "GithubUsername": "NeumanShowcase",
+        "LinkedIn": "https://linkedin.com/in/oskar-neuman"
     },
     "Experience": {
         "Infospread": {
             "Img": "img/infospread.png",
             "Title": "Infospread Euro AB",
             "Timespan": "Mars 2018 - December 2019",
-            "Desc": "Jag arbetade senast på Infospread där min roll var att konstruera mjukvara och efterforska produktlönsingar som ämnade förbättra produkten 'Mobitime'. Detta samarbete resulterade i flertalet utvecklade mjukvaror på flera områden av IT.",
+            "Desc": ["Jag arbetade senast på Infospread där min roll var att konstruera mjukvara och efterforska produktlönsingar som ämnade förbättra produkten 'Mobitime'.", "Detta samarbete resulterade i flertalet utvecklade mjukvaror på flera områden av IT."],
+            "Roles": ["En mjukvara för front end testning av mobilappar genom 'Appium'-ramverket", "Tillgänglighetsanpassning genom röststyrning (google assistant)", "Ordinarie arbete med buggfixar genom användandet av 'issue tracking' system", "En vetenskaplig rapport som efterforskade återkommande mönster i kollektivtrafiksresande."],
             "Webpage": "https://infospread.se",
             "Position": "Utvecklare"
         }

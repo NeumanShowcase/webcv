@@ -20,20 +20,31 @@ app.set('view engine', '.hbs');
 
 // Route for undetermined language
 app.get("/", (req, res) => {
-    res.render("lang.hbs", {});
+    switch(req.query.lang) {
+        case 'en':
+            model = englishData;
+            res.render("home.hbs", model);
+          break;
+        case 'sv':
+            model = swedishData;
+            res.render("home.hbs", model);
+          break;
+        default:
+            res.render("lang.hbs", { hidenav: true, layout: 'main.hbs'});
+      }
+   
 });
-// English route
-app.get("/en", (req, res) => {
-    model = englishData;
-    res.render("home.hbs", model);
-});
-// Swedish route
-app.get("/sv", (req, res) => {
-    model = swedishData;
-    res.render("home.hbs", model);
-});
-
-
+// // English route
+// app.get("/en", (req, res) => {
+//     console.log(req.query.lang)
+//     model = englishData;
+//     res.render("home.hbs", model);
+// });
+// // Swedish route
+// app.get("/sv", (req, res) => {
+//     model = swedishData;
+//     res.render("home.hbs", model);
+// });
 
 app.use(express.static('public'))
 app.use(favicon(__dirname + '/public/img/favicon-32x32.png'));

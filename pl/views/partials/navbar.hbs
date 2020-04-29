@@ -2,7 +2,7 @@
   <a class="navbar-brand js-scroll-trigger" href="#page-top">
     <span class="d-block d-lg-none">Oskar Neuman</span>
     <span class="d-none d-lg-block">
-      {{!-- <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt=""> --}}
+       <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile2.jpg" alt=""> 
     </span>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -26,6 +26,15 @@
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
       </li>
+      <p></p>
+      <p></p>
+      {{#if Lang.English}}
+      <p>På svenska?</p>
+      <a href="/?lang=sv"><img src="./img/swe.png" class="img langicosmall"></a>
+      {{else}}
+      <p>In english?</p>
+      <a href="/?lang=en"><img src="./img/en.png" class="img langicosmall"></a>
+      {{/if}}
     </ul>
   </div>
 </nav>

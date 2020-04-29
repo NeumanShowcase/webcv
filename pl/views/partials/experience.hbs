@@ -1,30 +1,44 @@
-  {{!-- Section EXPERIENCE START --}}
-  <hr class="m-0">
-  <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-    <div class="w-100">
-      <h2 class="mb-5">Experience</h2>
-      <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-        <p>{{Experience.Infospread.Desc}}</p>
-      </div>
-      {{!-- here goes 'card like' information --}}
-      <div class="resume-content">
-        <div>
-          <a href="{{Experience.Infospread.Webpage}}">
-            <img src="{{Experience.Infospread.Img}}" alt="Infospread Logo" class="img"
-              style="min-width:80px; min-height:20px">
-          </a>
-        </div>
-      </div>
-      <h3 class="mb-0">{{Experience.Infospread.Position}}</h3>
-      <a href={{Experience.Infospread.Webpage}}>
-        <div class="subheading mb-3">{{Experience.Infospread.Title}}</div>
-      </a>
-      <div class="resume-date">
-        <span class="text-primary">{{Experience.Infospread.Timespan}}</span>
-      </div>
-      <p>Reference:
-        <br> Stefan Johansson <br>
-        CEO<br> +4636361758</p>
+{{!-- Section EXPERIENCE START --}}
+<hr class="m-0">
+<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+  <div class="w-100">
+    <h2 class="mb-5">Experience</h2>
+    <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+      <p>
+        {{#each Experience.Infospread.Desc}}
+        {{this}}
+        <br>
+        {{/each}}
+      </p>
     </div>
-</div>
+    <div class="subheading mb-3">Accomplishments</div>
+    <ul class="fa-ul mb-0">
+      {{#each Experience.Infospread.Roles}}
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        {{this}}
+      </li>
+      {{/each}}
+    </ul>
+    {{!-- here goes 'card like' information --}}
+    <div class="resume-content">
+      <div>
+        <a href="{{Experience.Infospread.Webpage}}">
+          <img src="{{Experience.Infospread.Img}}" alt="Infospread Logo" class="img"
+            style="min-width:80px; min-height:20px">
+        </a>
+      </div>
+    </div>
+    <h3 class="mb-0">{{Experience.Infospread.Position}}</h3>
+    <a href={{Experience.Infospread.Webpage}}>
+      <div class="subheading mb-3">{{Experience.Infospread.Title}}</div>
+    </a>
+    <div class="resume-date">
+      <span class="text-primary">{{Experience.Infospread.Timespan}}</span>
+    </div>
+    <p>Reference:
+      <br> Stefan Johansson <br>
+      CEO<br> +4636361758</p>
+  </div>
+  </div>
 </section>
