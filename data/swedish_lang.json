@@ -1,6 +1,16 @@
 {
-    "Lang":{
-        "Swedish": true 
+    "Lang": {
+        "Swedish": true,
+        "Headings": {
+            "About": "Om",
+            "Experience": "Erfarenhet",
+            "Accomplishments": "Prestationer",
+            "Education": "Utbildning",
+            "Skills": "Kompetens",
+            "SkillsSub1": "Språk &amp; verktyg",
+            "SkillsSub2": "Arbetsflöde",
+            "References": "Referenser"
+        }
     },
     "About": {
         "Adress": "Kärrhöksgatan 80 1005, 55612 Jönköping",
@@ -16,8 +26,16 @@
             "Img": "img/infospread.png",
             "Title": "Infospread Euro AB",
             "Timespan": "Mars 2018 - December 2019",
-            "Desc": ["Jag arbetade senast på Infospread där min roll var att konstruera mjukvara och efterforska produktlönsingar som ämnade förbättra produkten 'Mobitime'.", "Detta samarbete resulterade i flertalet utvecklade mjukvaror på flera områden av IT."],
-            "Roles": ["En mjukvara för front end testning av mobilappar genom 'Appium'-ramverket", "Tillgänglighetsanpassning genom röststyrning (google assistant)", "Ordinarie arbete med buggfixar genom användandet av 'issue tracking' system", "En vetenskaplig rapport som efterforskade återkommande mönster i kollektivtrafiksresande."],
+            "Desc": [
+                "Jag arbetade senast på Infospread där min roll var att konstruera mjukvara och efterforska produktlönsingar som ämnade förbättra produkten 'Mobitime'.",
+                "Detta samarbete resulterade i flertalet utvecklade mjukvaror på flera områden av IT."
+            ],
+            "Roles": [
+                "En mjukvara för front end testning av mobilappar genom 'Appium'-ramverket",
+                "Tillgänglighetsanpassning genom röststyrning (google assistant)",
+                "Ordinarie arbete med buggfixar genom användandet av 'issue tracking' system",
+                "En vetenskaplig rapport som efterforskade återkommande mönster i kollektivtrafiksresande."
+            ],
             "Webpage": "https://infospread.se",
             "Position": "Utvecklare"
         }
@@ -32,13 +50,39 @@
             "Webpage": "https://ju.se",
             "Desc": "Efter tre års studier tog jag examen från Jönköpings tekniska högskola i Januari 2020. Mitt examensarbete gjorde jag i samarbete med Infospread och kom att avhandla resemönster och statistiska förutselser från dessa. Detta examensarbete och mina betyg går att granska via länkarna nedan, ett axplock av de projekt jag arbetat i finns sedan under 'portfolio'.",
             "ThesisURL": "http://hj.diva-portal.org/smash/record.jsf?pid=diva2%3A1390020&dswid=-4432",
-            "DegreeURL": "/certs/Degree.pdf"
+            "DegreeURL": "/certs/Degree.pdf",
+            "ThesisDesc": "Visa examensarbete (Diva)",
+            "DegreeDesc": "Visa betyg (PDF)"
         }
     },
     "Skills": {
-        "Desc": "Jag har arbetat med olika språk i flertalet ramverk beroende på vad som krävts av projektet. De språk och ramverk jag känner mig mest hemma i är: Java (Android Studio), Javascript (Node.js & React), Python 3.5, Obj-C or Swift (X-Code)"
+        "Desc": "Jag har arbetat med olika språk i flertalet ramverk beroende på vad som krävts av projektet. De språk och ramverk jag känner mig mest hemma i är: Java (Android Studio), Javascript (Node.js & React), Python 3.5, Obj-C or Swift (X-Code)",
+        "Workflow": [
+            "Agila metoder &amp; Scrum",
+            "UML Modellering",
+            "Testdriven utveckling (TDD)"
+        ]
     },
     "Portfolio": {
         "Desc": "När jag inte lagar mat till musik eller gymmar spenderar jag min tid med att programmera i olika hobbyprojekt, några går det att läsa om nedan."
-    }
+    },
+    "References": [
+        {
+            "Company": "Infospread Euro AB",
+            "Name": "Stefan Johansson",
+            "Position": "VD",
+            "Email": "stefan@infospread.se",
+            "Phone": "(+46)36361758",
+            "Img":"img/infospread.png"
+        },
+        {
+            "Company": "Infospread Euro AB",
+            "Name": "Vladimir Klicic",
+            "Position": "Utvecklare",
+            "Email": "vladimir@infospread.se",
+            "Phone": "(+46)736447891",
+            "Img":"img/infospread.png",
+            "LinkedIn":"https://www.linkedin.com/in/vladimir-klicic-481087151/"
+        }
+    ]
 }

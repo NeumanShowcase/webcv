@@ -8,11 +8,15 @@
   "scripts": {
     "start": "node app"
   },
-  "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+  "description": "Taking the resume template to another level.",
   "keywords": [
     "css",
     "html",
     "responsive",
+    "express", 
+    "node.js",
+    "portfolio",
+    "CV",
     "theme",
     "template"
   ],
@@ -29,15 +33,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlackrockDigital/startbootstrap-resume.git"
+    "url": "git+ https://github.com/NeumanShowcase/webcv.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.10.2",
     "bootstrap": "4.3.1",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.3",
-    "jquery": "3.4.1",
-    "jquery.easing": "^1.4.1",
     "serve-favicon": "^2.5.0"
   },
   "main": "app.js"

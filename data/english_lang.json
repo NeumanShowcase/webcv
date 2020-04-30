@@ -1,13 +1,23 @@
 {
     "Lang":{
-        "English": true 
+        "English": true,
+        "Headings": {
+            "About": "About",
+            "Experience": "Experience",
+            "Accomplishments": "Accomplishments",
+            "Education": "Education",
+            "Skills": "Skills",
+            "SkillsSub1": "Programming Languages &amp; Tools",
+            "SkillsSub2": "Workflow",
+            "References": "References"
+        }
     },
     "About": {
         "Adress": "Karrhoksgatan 80 1005, 55612 Jonkoping",
         "Email": "oskar.neuman@gmail.com",
         "Phone": "(+46)764284858",
         "Age": 31,
-        "Desc": "Hi! I'm a software developer currently operating from Sweden. I have made this page to combine an introduction of me as a person with a summary of my skillset and to present some of my previous work. Find out more below.",
+        "Desc": "Hi! I'm a software developer currently located in Jönköping Sweden. As i due to the corona crisis find myself unemployed i have made this page to introduce myself as a person and to present some of my skills and accomplishments. Find out more below.",
         "GithubUsername": "NeumanShowcase",
         "LinkedIn": "https://linkedin.com/in/oskar-neuman"
     },
@@ -17,7 +27,7 @@
             "Title": "Infospread Euro AB",
             "Timespan": "March 2018 - December 2019",
             "Desc": ["I worked together with Infospread during the time of my engineering studies and this partnership led to several developed software products.", "I had the role of reasearcher and developer and my main accomplishments were:"],
-            "Roles": ["A front end mobile testing software using the 'Appium'-Framework", "Accessibility adaptions using voice navigation (google assistant)", "Regular bugfixing using issue tracking systems", "A report and a prototype of data analytics using progressive machine learning."],
+            "Roles": ["A front end mobile testing software using the 'Appium'-Framework", "Accessibility adaptions using voice navigation (google assistant)", "Regular bugfixing using issue tracking systems", "A report and a prototype of data analytics using progressive machine learning algorithms"],
             "Webpage": "https://infospread.se",
             "Position": "Developer (and researcher)"
         }
@@ -30,15 +40,37 @@
             "Degree": "Bachelor in computer science",
             "TrackName": "Computer Science - 'Mobile platforms' Track",
             "Webpage": "https://ju.se",
-            "Desc": "After studying about 3 years I graduated from Jönköping University 2020, I wrote my thesis work in collaboration with Infospread and it's researching the predictability in commuting data patterns. My grades and this research work can be found below.",
+            "Desc": "After studying about 3 years I graduated from Jönköping University 2020, I wrote my thesis work in collaboration with Infospread and the research is about the predictability in commuting data patterns. My grades and the thisis can be found below.",
             "ThesisURL": "http://hj.diva-portal.org/smash/record.jsf?pid=diva2%3A1390020&dswid=-4432",
-            "DegreeURL": "/certs/Degree.pdf"
+            "DegreeURL": "/certs/Degree.pdf",
+            "ThesisDesc": "VIEW THESIS (DIVA)",
+            "DegreeDesc": "DOWNLOAD GRADES (PDF)"
         }
     },
     "Skills": {
-        "Desc": "I have been coding in different languages depending on the requirements of the task. I would say the languages and frameworks I feel most confortable with are: Java (Android Studio), Javascript (Node.js & React), Python 3.5, Obj-C or Swift (X-Code)"
+        "Desc": "I have been coding in different languages depending on the requirements of the objective. I would say the languages and frameworks I feel most confortable with are: Java (Android Studio), Javascript (Node.js & React), Python 3.5, Obj-C or Swift (X-Code)",
+        "Workflow": ["Agile Development &amp; Scrum", "UML Modelling", "Test Driven Development (TDD)"]
     },
     "Portfolio": {
         "Desc": "When I'm not in the kitchen cooking food to music, I sometimes spend my spare time coding. Some of the results of this activity can be found below. The source code to some projects needs to be requested."
-    }
+    },
+    "References": [
+        {
+            "Company": "Infospread Euro AB",
+            "Name": "Stefan Johansson",
+            "Position": "CEO",
+            "Email": "stefan@infospread.se",
+            "Phone": "(+46)36361758",
+            "Img":"img/infospread.png"
+        },
+        {
+            "Company": "Infospread Euro AB",
+            "Name": "Vladimir Klicic",
+            "Position": "Developer",
+            "Email": "vladimir@infospread.se",
+            "Phone": "(+46)736447891",
+            "Img":"img/infospread.png",
+            "LinkedIn":"https://www.linkedin.com/in/vladimir-klicic-481087151/"
+        }
+    ]
 }

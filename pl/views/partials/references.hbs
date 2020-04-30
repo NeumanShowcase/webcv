@@ -1,0 +1,47 @@
+{{!-- Section REFERENCES START --}}
+<hr class="m-0">
+<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="references">
+    <div class="w-100">
+        <h2 class="mb-5">{{Lang.Headings.References}}</h2>
+        {{!-- HEADER --}}
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+
+            <div class="container">
+
+                <div class="row">
+                    {{#each References}}
+                    <div class="col-md-3">
+                        <div class="contact-box center-version">
+                            <a href="{{this.webURL}}">
+                                <img alt="image" class="img-circle mt-2" src="{{this.Img}}">
+                                <h3 class="m-b-xs"><strong>{{this.Name}}</strong></h3>
+
+                                <div class="font-bold">{{this.Position}}</div>
+                                <address class="m-t-md">
+                                    <strong>{{this.Company}}</strong><br>
+                                    {{!-- <abbr title="Phone">P:</abbr> {{this.Phone}} --}}
+                                </address>
+                            </a>
+                            <div class="contact-box-footer">
+                                <div class="m-t-xs btn-group">
+                                    <a class="btn btn-xs btn-white" href="tel:{{this.Phone}}"><i
+                                            class="fa fa-phone"></i> Call </a>
+                                    <a class="btn btn-xs btn-white" href="mailto:{{this.Email}}"><i
+                                            class="fa fa-envelope"></i> Email</a>
+                                    {{#if this.LinkedIn}}
+                                    <a class="btn btn-xs btn-white" href="{{this.LinkedIn}}"><i
+                                            class="fab fa-linkedin-in"></i> Profile</a>
+                                    {{/if}}
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</section>

@@ -2,9 +2,10 @@
 <hr class="m-0">
 <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="skills">
     <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
+        <h2 class="mb-5">{{Lang.Headings.Skills}}</h2>
         <p>{{Skills.Desc}}</p>
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <div class="subheading mb-3">{{{Lang.Headings.SkillsSub1}}}</div>
+        {{!-- Below is an icon list of languages and tools, you can find them here: https://fontawesome.com/icons?s=brands --}}
         <ul class="list-inline dev-icons">
             <li class="list-inline-item">
                 <i class="fab fa-html5"></i>
@@ -43,17 +44,13 @@
                 <i class="fas fa-database"></i>
             </li>
         </ul>
-        <div class="subheading mb-3">Workflow</div>
+        <div class="subheading mb-3">{{Lang.Headings.SkillsSub2}}</div>
         <ul class="fa-ul mb-0">
+            {{#each Skills.Workflow}}
             <li>
                 <i class="fa-li fa fa-check"></i>
-                Agile Development &amp; Scrum</li>
-            <li>
-                <i class="fa-li fa fa-check"></i>
-                UML Modelling</li>
-            <li>
-                <i class="fa-li fa fa-check"></i>
-                TDD</li>
+               {{{this}}}</li>
+            {{/each}}
         </ul>
     </div>
 </section>

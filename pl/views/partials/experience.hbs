@@ -2,7 +2,7 @@
 <hr class="m-0">
 <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
   <div class="w-100">
-    <h2 class="mb-5">Experience</h2>
+    <h2 class="mb-5">{{Lang.Headings.Experience}}</h2>
     <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
       <p>
         {{#each Experience.Infospread.Desc}}
@@ -11,7 +11,7 @@
         {{/each}}
       </p>
     </div>
-    <div class="subheading mb-3">Accomplishments</div>
+    <div class="subheading mb-3">{{Lang.Headings.Accomplishments}}</div>
     <ul class="fa-ul mb-0">
       {{#each Experience.Infospread.Roles}}
       <li>
@@ -36,9 +36,7 @@
     <div class="resume-date">
       <span class="text-primary">{{Experience.Infospread.Timespan}}</span>
     </div>
-    <p>Reference:
-      <br> Stefan Johansson <br>
-      CEO<br> +4636361758</p>
+    
   </div>
   </div>
 </section>
