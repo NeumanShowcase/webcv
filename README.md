@@ -1,9 +1,10 @@
 # WebCv App
 ## Node.js CV template web app. 
 Mobile view  
-<img src="https://i.imgur.com/1FCB3vf.png">
+<img src="https://i.imgur.com/1FCB3vf.png" height="400">
+
 Desktop view  
-<img src="https://i.imgur.com/7ZLWQH1.png">
+<img src="https://i.imgur.com/7ZLWQH1.png" height="400">
 ### What is this?  
 This is an adaption of the free to use Resume page found on startbootsrap.com  
 By using handlebars and express this project was aimed at making the template even more easy to use. By dividing partials of the code and placing the data used in models instead of directly in the HTML source it's easier to adapt for other persons.
