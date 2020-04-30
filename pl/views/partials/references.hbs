@@ -5,23 +5,19 @@
         <h2 class="mb-5">{{Lang.Headings.References}}</h2>
         {{!-- HEADER --}}
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-
             <div class="container">
-
                 <div class="row">
                     {{#each References}}
                     <div class="col-md-3">
                         <div class="contact-box center-version">
-                            <a href="{{this.webURL}}">
-                                <img alt="image" class="img-circle mt-2" src="{{this.Img}}">
-                                <h3 class="m-b-xs"><strong>{{this.Name}}</strong></h3>
+                            <img alt="image" class="img-circle mt-2" src="{{this.Img}}">
+                            <h3 class="m-b-xs"><strong>{{this.Name}}</strong></h3>
 
-                                <div class="font-bold">{{this.Position}}</div>
-                                <address class="m-t-md">
-                                    <strong>{{this.Company}}</strong><br>
-                                    {{!-- <abbr title="Phone">P:</abbr> {{this.Phone}} --}}
-                                </address>
-                            </a>
+                            <div class="font-bold">{{this.Position}}</div>
+                            <address class="m-t-md">
+                                <strong>{{this.Company}}</strong><br>
+                                {{!-- <abbr title="Phone">P:</abbr> {{this.Phone}} --}}
+                            </address>
                             <div class="contact-box-footer">
                                 <div class="m-t-xs btn-group">
                                     <a class="btn btn-xs btn-white" href="tel:{{this.Phone}}"><i

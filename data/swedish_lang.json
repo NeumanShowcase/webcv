@@ -17,7 +17,7 @@
         "Email": "oskar.neuman@gmail.com",
         "Phone": "0764284858",
         "Age": 31,
-        "Desc": "Hej! Jag är en mjukvaruutvecklare som bor i Jönköping. Denna sida är sammansatt med syftet att kombinera information om mig som person med en samanställning av mina tidigare arbeten. Läs mer nedan om du är intresserad.",
+        "Desc": "Hej! Jag är en mjukvaruutvecklare som för närvarande är bosatt i Jönköping. På grund av rådande coronakris är jag numera i jakt på ett nytt meningsfullt uppdrag. Jag hoppas att jag genom denna sida kan väcka intresse kring mig som person och visa upp några av mina tidigare arbeten och prestationer.",
         "GithubUsername": "NeumanShowcase",
         "LinkedIn": "https://linkedin.com/in/oskar-neuman"
     },
@@ -27,8 +27,7 @@
             "Title": "Infospread Euro AB",
             "Timespan": "Mars 2018 - December 2019",
             "Desc": [
-                "Jag arbetade senast på Infospread där min roll var att konstruera mjukvara och efterforska produktlönsingar som ämnade förbättra produkten 'Mobitime'.",
-                "Detta samarbete resulterade i flertalet utvecklade mjukvaror på flera områden av IT."
+                "Jag arbetade senast på Infospread där min roll var 'research and development'", "I syftet att finna tekniska lösningar inom olika områden av IT innebar denna roll mycket undersökande arbete med rapportskrivande. Resulterande rapporter blev sedan grund för beslut om skapandet av prototyper. Detta arbetsflöde resulterade i flera mjukvaror under tiden jag var anställd." 
             ],
             "Roles": [
                 "En mjukvara för front end testning av mobilappar genom 'Appium'-ramverket",
@@ -48,7 +47,7 @@
             "Degree": "Högskoleingenjör datavetenskap",
             "TrackName": "Datavetenskap - inriktnig mobila plattformar",
             "Webpage": "https://ju.se",
-            "Desc": "Efter tre års studier tog jag examen från Jönköpings tekniska högskola i Januari 2020. Mitt examensarbete gjorde jag i samarbete med Infospread och kom att avhandla resemönster och statistiska förutselser från dessa. Detta examensarbete och mina betyg går att granska via länkarna nedan, ett axplock av de projekt jag arbetat i finns sedan under 'portfolio'.",
+            "Desc": "Efter tre års studier tog jag examen från Jönköpings tekniska högskola i Januari 2020. Mitt examensarbete gjorde jag i samarbete med Infospread och kom att avhandla förutsägelser ur resemönster. Detta examensarbete och mina betyg går att hitta via länkarna nedan, ett axplock av de projekt jag arbetat i finns sedan under 'portfolio'.",
             "ThesisURL": "http://hj.diva-portal.org/smash/record.jsf?pid=diva2%3A1390020&dswid=-4432",
             "DegreeURL": "/certs/Degree.pdf",
             "ThesisDesc": "Visa examensarbete (Diva)",
@@ -56,7 +55,7 @@
         }
     },
     "Skills": {
-        "Desc": "Jag har arbetat med olika språk i flertalet ramverk beroende på vad som krävts av projektet. De språk och ramverk jag känner mig mest hemma i är: Java (Android Studio), Javascript (Node.js & React), Python 3.5, Obj-C or Swift (X-Code)",
+        "Desc": "Jag har arbetat med olika språk i flertalet ramverk både under min roll som anställd och som student i olika projektarbeten. De språk och ramverk jag känner mig mest hemma i är: Java (Android Studio), Javascript (Node.js & React), Python (3), Swift (X-Code), Sql databaser jag jobbat med har vart SQL-server, MySql och MongoDB.",
         "Workflow": [
             "Agila metoder &amp; Scrum",
             "UML Modellering",
@@ -64,7 +63,7 @@
         ]
     },
     "Portfolio": {
-        "Desc": "När jag inte lagar mat till musik eller gymmar spenderar jag min tid med att programmera i olika hobbyprojekt, några går det att läsa om nedan."
+        "Desc": "Nedan är några projekt jag vart inblandad i med start i denna mallen för CV som jag anpassat för använding med handlebars och node.js express. All källkod kan jag inte redovisa för alla projekt offentligt men vid efterfrågan kan inblickar ges."
     },
     "References": [
         {

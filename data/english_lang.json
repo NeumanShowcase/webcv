@@ -26,7 +26,7 @@
             "Img": "img/infospread.png",
             "Title": "Infospread Euro AB",
             "Timespan": "March 2018 - December 2019",
-            "Desc": ["I worked together with Infospread during the time of my engineering studies and this partnership led to several developed software products.", "I had the role of reasearcher and developer and my main accomplishments were:"],
+            "Desc": ["I worked together with Infospread during the time of my engineering studies as a researcher and developer. The working process was to research different software solutions in upcoming IT technology and generate reports for decision making.", "This process led to several developed software products."],
             "Roles": ["A front end mobile testing software using the 'Appium'-Framework", "Accessibility adaptions using voice navigation (google assistant)", "Regular bugfixing using issue tracking systems", "A report and a prototype of data analytics using progressive machine learning algorithms"],
             "Webpage": "https://infospread.se",
             "Position": "Developer (and researcher)"
@@ -40,7 +40,7 @@
             "Degree": "Bachelor in computer science",
             "TrackName": "Computer Science - 'Mobile platforms' Track",
             "Webpage": "https://ju.se",
-            "Desc": "After studying about 3 years I graduated from Jönköping University 2020, I wrote my thesis work in collaboration with Infospread and the research is about the predictability in commuting data patterns. My grades and the thisis can be found below.",
+            "Desc": "After studying about 3 years I graduated from Jönköping University 2020, I wrote my thesis work in collaboration with Infospread and the research is about the predictability in commuting data patterns. My grades from the school and the thisis can be found below.",
             "ThesisURL": "http://hj.diva-portal.org/smash/record.jsf?pid=diva2%3A1390020&dswid=-4432",
             "DegreeURL": "/certs/Degree.pdf",
             "ThesisDesc": "VIEW THESIS (DIVA)",
